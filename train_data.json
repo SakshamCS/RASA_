@@ -1,0 +1,30 @@
+{
+  "texts": [
+    "hi",
+    "hello",
+    "hey",
+    "how are you?",
+    "what's up?",
+    "how's it going?",
+    "what's the weather like?",
+    "tell me the weather",
+    "how's the weather today?",
+    "can you fetch stock prices?",
+    "give me stock updates",
+    "what's the stock market doing?"
+  ],
+  "labels": [
+    "greet",
+    "greet",
+    "greet",
+    "small_talk",
+    "small_talk",
+    "small_talk",
+    "ask_weather",
+    "ask_weather",
+    "ask_weather",
+    "ask_stock",
+    "ask_stock",
+    "ask_stock"
+  ]
+}

@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - faq
+  - small_talk
+  - goodbye
+  - welcome
+  - ask_weather
+  - provide_city
+  - ask_stock_price
+
+entities:
+  - city
+  - stock_symbol
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_faq:
+    - text: "Rasa is an open-source framework for building AI chatbots."
+
+  utter_small_talk:
+    - text: "I'm just a chatbot, but I'm doing great! How about you?"
+
+  utter_goodbye:
+    - text: "Goodbye, Have a nice day :)"
+
+  utter_welcome:
+    - text: "Happy to help 😊"
+
+  utter_ask_city:
+    - text: "Which city's weather would you like to check?"
+
+  utter_ask_stock:
+    - text: "Which stock symbol do you want to check?"
+
+actions:
+  - action_get_weather
+  - action_get_stock_price
+  - action_classify_intent
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
