@@ -1,0 +1,46 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+  - story: greeting_story
+    steps:
+      - user: |
+          Hello
+        intent: greet
+      - action: utter_greet
+      - user: |
+          thanks
+        intent: welcome
+      - action: utter_welcome
+
+  - story: faq_story
+    steps:
+      - user: |
+          what's rasa?
+        intent: faq
+      - action: utter_faq
+
+  - story: small_talk_story
+    steps:
+      - user: |
+          how are you?
+        intent: small_talk
+      - action: utter_small_talk
+
+  - story: get weather
+    steps:
+      - user: |
+          what's the weather?
+        intent: ask_weather
+      - action: utter_ask_city
+      - user: |
+          city
+        intent: provide_city
+      - action: action_get_weather
+
+  - story: get stock price
+    steps:
+      - user: |
+          hey get me stock prize of (stock_symbol)
+        intent: ask_stock_price
+      - action: action_get_stock_price

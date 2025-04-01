@@ -1,0 +1,14 @@
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - user: |
+          Bye
+        intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say happy to help anytime the user says thanks
+    steps:
+      - user: |
+          Thank you
+        intent: welcome
+      - action: utter_welcome

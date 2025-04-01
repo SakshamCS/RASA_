@@ -1,0 +1,73 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - Good morning
+      - Good evening
+
+  - intent: faq
+    examples: |
+      - What is Rasa?
+      - How does Rasa work?
+      - Can you explain NLU?
+      - What is the difference between Rasa and Dialogflow?
+      - How to train a chatbot?
+
+  - intent: small_talk
+    examples: |
+      - How are you?
+      - What are you doing?
+      - Do you like pizza?
+      - Tell me something interesting
+      - What is your favorite color?
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - Goodbye
+      - Ciao
+      - Adios
+      - cya
+      - see ya
+
+  - intent: welcome
+    examples: |
+      - thanks
+      - thank you
+      - thanks for the help
+      - great
+      - yay!
+
+  - intent: ask_weather
+    examples: |
+      - What's the weather like?
+      - Tell me the weather.
+      - How is the weather today?
+      - Can you give me the weather update?
+
+  - intent: provide_city
+    examples: |
+      - The weather in [New York](city)
+      - Check the weather in [Los Angeles](city)
+      - Show me the weather for [London](city)
+      - Give me the forecast for [Tokyo](city)
+      - What's the temperature in [Berlin](city)?
+      - Weather report for [Mumbai](city)
+      - How's the weather in [Sydney](city)?
+      - Can you check [Paris](city)'s weather?
+      - [Delhi](city)
+      - [Kolkata](city)
+      - [Seoul](city)
+
+  - intent: ask_stock_price
+    examples: |
+      - What is the stock price of [AAPL](stock_symbol)?
+      - How much is [TSLA](stock_symbol) trading at?
+      - Give me the latest price of [GOOGL](stock_symbol).
+      - Tell me the stock value of [MSFT](stock_symbol).
+      - What's the current price of [AMZN](stock_symbol)?
+      - [NFLX](stock_symbol)
