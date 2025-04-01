@@ -396,7 +396,12 @@ Test with:
 You: hello
 Bot: Hello! How can I help you?
 ```
-🎯 Congratulations! You’ve implemented a deep learning intent classifier for Rasa.
+
+---
+
+## Conclusion
+
+🎯 You’ve implemented a deep learning intent classifier for Rasa.
 
 
 
