@@ -387,6 +387,10 @@ python evaluate_model.py
 ```
 This will print the accuracy and a detailed classification report.
 
+## Evaluation Report Screenshot 
+
+<img width="1438" alt="Screenshot 2025-04-01 at 10 52 03 PM" src="https://github.com/user-attachments/assets/676673cc-91fe-4667-9510-0e30501ad555" />
+
 ## Integration with Rasa
 
 ### Step 5: Modify Rasa Configuration
