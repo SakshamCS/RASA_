@@ -3,6 +3,10 @@
 ## Overview
 This project sets up a Rasa-based chatbot that handles three intents (greeting, FAQ, and small talk) and includes a custom action to fetch live weather data from an external API.
 
+##Result Video
+
+https://github.com/user-attachments/assets/7f1eb21e-5456-4fbd-bc69-e6e12db02a2e
+
 ## Prerequisites
 - Python 3.8–3.10
 - pip
